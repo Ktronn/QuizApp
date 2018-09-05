@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
 
         next.setOnClickListener((view) -> {
 
-            if (q1.get() == false) {
+            if (!q1.get()) {
 
                 question.setText(arr2[0][0]);
 
@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
 
                 q1.set(true);
             }
-            else if (q2.get() == false)
+            else if (!q2.get())
             {
 
                 question.setText(arr3[0][0]);
@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
                 q2.set(true);
             }
 
-            else if (q2.get() == true || q1.get() == true)
+            else if (q2.get() || q1.get())
             {
                 question.setText(arr1[0][0]);
                 b1.setTag(arr1[1][1]);
