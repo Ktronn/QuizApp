@@ -5,8 +5,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 import java.util.Vector;
 import java.util.List;
 
@@ -36,7 +34,7 @@ import java.util.List;
 
             final Button b1 = (Button) findViewById(R.id.button1); //A
             final Button b2 = (Button) findViewById(R.id.button2); //B
-            final Button b3 = (Button) findViewById(R.id.button3); //C
+            final Button b3 = (Button) findViewById(R.id.button2); //C
             final Button b4 = (Button) findViewById(R.id.button4); //D
             final Button b5 = (Button) findViewById(R.id.nextB); //next button
             final TextView qtn = findViewById(R.id.textView); //QuestionText
