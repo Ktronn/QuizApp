@@ -39,11 +39,11 @@ public class MainActivity extends AppCompatActivity {
 
         String[][] arr2 = new String[2][5];
 
-        arr2[0][0] = "A wale is a:";
+        arr2[0][0] = "A whale is a:";
         arr2[0][1] = "Mammal";
         arr2[0][2] = "Fish";
         arr2[0][3] = "Amphibian";
-        arr2[0][4] = "Big Watter Doggo";
+        arr2[0][4] = "Big Water Doggo";
 
         arr2[1][1] = "true";
         arr2[1][2] = "false";
@@ -90,9 +90,9 @@ public class MainActivity extends AppCompatActivity {
         b4.setText(arr1[0][4]);
 
 
-        //Question 2
 
 
+// set string values for the questions
         next.setOnClickListener((view) -> {
 
             if (!q1.get()) {
@@ -160,6 +160,7 @@ public class MainActivity extends AppCompatActivity {
             System.exit(0);
         });
 
+        //next button functionality
         b1.setOnClickListener((view) -> {
 
             if (b1.getTag() == "true") {
